@@ -1,6 +1,6 @@
 //
 //  BG13FirstViewController.h
-//  BabyGuess2013
+//  BG2013
 //
 //  Created by Michael Lerche on 10/5/13.
 //  Copyright (c) 2013 Michael Lerche. All rights reserved.
@@ -11,7 +11,6 @@
 
 
 @interface BG13HomeViewController : UIViewController{
-	//NSTimer *minuteTimer;
     NSDate *dueDate;
 
 }
