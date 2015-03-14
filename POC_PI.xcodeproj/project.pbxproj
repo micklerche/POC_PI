@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		6BB40FD71AB46C5F006360B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB40FD61AB46C5F006360B2 /* main.m */; };
 		6BB40FDA1AB46C5F006360B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB40FD91AB46C5F006360B2 /* AppDelegate.m */; };
-		6BB40FDD1AB46C5F006360B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB40FDC1AB46C5F006360B2 /* ViewController.m */; };
 		6BB40FE01AB46C5F006360B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB40FDE1AB46C5F006360B2 /* Main.storyboard */; };
 		6BB40FE21AB46C5F006360B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB40FE11AB46C5F006360B2 /* Images.xcassets */; };
 		6BB40FE51AB46C5F006360B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB40FE31AB46C5F006360B2 /* LaunchScreen.xib */; };
 		6BB40FF11AB46C5F006360B2 /* POC_PITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB40FF01AB46C5F006360B2 /* POC_PITests.m */; };
+		6BB40FFC1AB46CEE006360B2 /* BG13HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB40FFB1AB46CEE006360B2 /* BG13HomeViewController.m */; };
+		6BB410051AB48FF3006360B2 /* PI_SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB410041AB48FF3006360B2 /* PI_SettingsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		6BB40FD61AB46C5F006360B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BB40FD81AB46C5F006360B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BB40FD91AB46C5F006360B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6BB40FDB1AB46C5F006360B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6BB40FDC1AB46C5F006360B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6BB40FDF1AB46C5F006360B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BB40FE11AB46C5F006360B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6BB40FE41AB46C5F006360B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6BB40FEA1AB46C5F006360B2 /* POC_PITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POC_PITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB40FEF1AB46C5F006360B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BB40FF01AB46C5F006360B2 /* POC_PITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POC_PITests.m; sourceTree = "<group>"; };
+		6BB40FFA1AB46CEE006360B2 /* BG13HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BG13HomeViewController.h; path = POC_PI/BG13HomeViewController.h; sourceTree = "<group>"; };
+		6BB40FFB1AB46CEE006360B2 /* BG13HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BG13HomeViewController.m; path = POC_PI/BG13HomeViewController.m; sourceTree = "<group>"; };
+		6BB410031AB48FF3006360B2 /* PI_SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PI_SettingsTableViewController.h; path = POC_PI/PI_SettingsTableViewController.h; sourceTree = "<group>"; };
+		6BB410041AB48FF3006360B2 /* PI_SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PI_SettingsTableViewController.m; path = POC_PI/PI_SettingsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		6BB40FC81AB46C5F006360B2 = {
 			isa = PBXGroup;
 			children = (
+				6BB410021AB48B7E006360B2 /* Views */,
 				6BB40FD31AB46C5F006360B2 /* POC_PI */,
 				6BB40FED1AB46C5F006360B2 /* POC_PITests */,
 				6BB40FD21AB46C5F006360B2 /* Products */,
@@ -83,9 +87,6 @@
 			children = (
 				6BB40FD81AB46C5F006360B2 /* AppDelegate.h */,
 				6BB40FD91AB46C5F006360B2 /* AppDelegate.m */,
-				6BB40FDB1AB46C5F006360B2 /* ViewController.h */,
-				6BB40FDC1AB46C5F006360B2 /* ViewController.m */,
-				6BB40FDE1AB46C5F006360B2 /* Main.storyboard */,
 				6BB40FE11AB46C5F006360B2 /* Images.xcassets */,
 				6BB40FE31AB46C5F006360B2 /* LaunchScreen.xib */,
 				6BB40FD41AB46C5F006360B2 /* Supporting Files */,
@@ -117,6 +118,18 @@
 				6BB40FEF1AB46C5F006360B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BB410021AB48B7E006360B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BB40FDE1AB46C5F006360B2 /* Main.storyboard */,
+				6BB40FFA1AB46CEE006360B2 /* BG13HomeViewController.h */,
+				6BB40FFB1AB46CEE006360B2 /* BG13HomeViewController.m */,
+				6BB410031AB48FF3006360B2 /* PI_SettingsTableViewController.h */,
+				6BB410041AB48FF3006360B2 /* PI_SettingsTableViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BB40FDD1AB46C5F006360B2 /* ViewController.m in Sources */,
+				6BB40FFC1AB46CEE006360B2 /* BG13HomeViewController.m in Sources */,
+				6BB410051AB48FF3006360B2 /* PI_SettingsTableViewController.m in Sources */,
 				6BB40FDA1AB46C5F006360B2 /* AppDelegate.m in Sources */,
 				6BB40FD71AB46C5F006360B2 /* main.m in Sources */,
 			);
@@ -250,6 +264,7 @@
 				6BB40FDF1AB46C5F006360B2 /* Base */,
 			);
 			name = Main.storyboard;
+			path = POC_PI;
 			sourceTree = "<group>";
 		};
 		6BB40FE31AB46C5F006360B2 /* LaunchScreen.xib */ = {

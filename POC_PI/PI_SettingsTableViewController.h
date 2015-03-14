@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PI_SettingsTableViewController.h
 //  POC_PI
 //
 //  Created by Mick Lerche on 3/14/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PI_SettingsTableViewController : UITableViewController
+@property BOOL isPM;
 
 @end
-
